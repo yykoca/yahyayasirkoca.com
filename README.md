@@ -1,2 +1,1 @@
-# PersonalSeite
-Meine Personal Seite
+My portfolio page.
