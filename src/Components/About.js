@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Container, Card, Image, Row, Col, Button, ProgressBar } from "react-bootstrap";
 
 function About() {
+  const [html, setHtml] = useState(0);
+  const [css, setCss] = useState(0);
+  const [javaScript, setJavaScript] = useState(0);
+  const [react, setReact] = useState(0);
+  const [python, setPython] = useState(0);
+
+  useEffect(() => {
+    setHtml(95);
+    setCss(85);
+    setJavaScript(80);
+    setReact(90);
+    setPython(65);
+  }, []);
+
+
   return (
     <Container style={{ minHeight: "90vh", display: "flex" }}>
       {/* <Row className="justify-content-md-center">
@@ -15,7 +30,7 @@ function About() {
           </Row> */}
       <Row className="align-items-md-center" >
         <Col>
-          <Card style={{border:"none"}}>
+          <Card style={{ border: "none" }}>
             <Card.Body>
               <Card.Title>About me</Card.Title>
               <Card.Text>
@@ -35,18 +50,18 @@ function About() {
               <br /> <br /> <br />
               <Card.Title>My Skills</Card.Title>
               <div>
-                HTML<ProgressBar striped variant="success" now={95} />
-                CSS<ProgressBar striped variant="info" now={85} />
-                REACT<ProgressBar striped variant="warning" now={80} />
-                JAVASCRIPT<ProgressBar striped variant="danger" now={90} />
-                PYTHON<ProgressBar striped variant="info" now={50} />
+                HTML<ProgressBar className="progress" animated striped variant="success" now={html} label={`${html}%`} />
+                CSS<ProgressBar striped variant="info" now={css} label={`${css}%`} />
+                JAVASCRIPT<ProgressBar striped variant="danger" now={javaScript} label={`${javaScript}%`} />
+                REACT<ProgressBar striped variant="warning" now={react} label={`${react}%`} />
+                PYTHON<ProgressBar striped variant="info" now={python} label={`${python}%`} />
               </div>
             </Card.Body>
           </Card>
         </Col>
         {/* <Col md="auto">Variable width content</Col> */}
         <Col xs lg="5">
-          <Card className="align-items-md-center" style={{border:"none"}}>
+          <Card className="align-items-md-center" style={{ border: "none" }}>
             {/* <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2019/11/05/12/02/sunset-4603355_960_720.jpg"/> */}
             <Image
               src="https://cdn.pixabay.com/photo/2019/11/05/12/02/sunset-4603355_960_720.jpg"
