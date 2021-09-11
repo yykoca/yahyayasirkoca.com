@@ -1,10 +1,11 @@
 import React from "react";
-import { Container, Card, Image, Row, Col, ListGroup} from "react-bootstrap";
+import { Container, Card, Image, Row, Col, ListGroup } from "react-bootstrap";
 import { Github, Instagram, Linkedin, Twitter } from "react-bootstrap-icons";
+import { MDBIcon } from 'mdbreact';
 
 function Home() {
   return (
-    <Container style={{ minHeight: "85vh", display: "flex" }}>
+    <Container fluid style={{ minHeight: "85vh", display: "flex" }}>
       {/* <Row className="justify-content-md-center">
         <Col xs lg="2">
           1 of 3
@@ -15,35 +16,40 @@ function Home() {
         </Col>
       </Row> */}
       <Row className="align-items-md-center">
-        <Col xs lg="5">
-          <Card className="align-items-md-center" style={{border:"none"}}>
+        <Col xs lg="5" >
+          <Card className="align-items-md-end shadow-none" >
             {/* <Card.Img variant="top" src="https://cdn.pixabay.com/photo/2019/11/05/12/02/sunset-4603355_960_720.jpg"/> */}
             <Image
               src="https://cdn.pixabay.com/photo/2019/11/05/12/02/sunset-4603355_960_720.jpg"
-              roundedCircle
+              // src={profilPhoto}
               width="320"
-              height="320"
+              height="540"
+              style={{ position: "relative", left: "60px", top: "75px", zIndex: "2", border: "4px solid orange" }}
             />
           </Card>
         </Col>
-        <Col xs lg="7">
-          <Card style={{border:"none"}}>
-            <Card.Body>
+        <Col xs lg="7" className="m-0 p-0" >
+          <Card className="shadow-none p-5" bg="dark" text="light " style={{ height: "500px", borderRadius: "0", margin: "0" }} >
+            <Card.Body className="d-flex flex-column justify-content-center" >
               <Card.Title>I'am Yahya Yasir.</Card.Title>
               <Card.Subtitle>Full-Stack Web Developer</Card.Subtitle>
               <Card.Text>
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Hi, I'm Yahya Yasir! I'm a Full-Stack Developer who is passionate about writing code, solving problems, automating stuff, and building Single Page Application.
               </Card.Text>
-              <ListGroup horizontal>
-                <ListGroup.Item action active variant="light" style={{border: "none", width:"100px"}} href="https://github.com/yykoca" target="_blank"><Github /></ListGroup.Item>
-                <ListGroup.Item action active variant="light" style={{border: "none", width:"100px"}} href="https://github.com/yykoca" target="_blank"><Linkedin /></ListGroup.Item>
-                <ListGroup.Item action active variant="light" style={{border: "none", width:"100px"}} href="https://github.com/yykoca" target="_blank"><Instagram /></ListGroup.Item>
-                <ListGroup.Item action active variant="light" style={{border: "none", width:"100px"}} href="https://github.com/yykoca" target="_blank"><Twitter /></ListGroup.Item>
+              <ListGroup horizontal className="text-center">
+                <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="https://github.com/yykoca" target="_blank">
+                  <Github color="white" /></ListGroup.Item>
+                <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="https://www.linkedin.com/in/yykoca/" target="_blank">
+                  <Linkedin color="white" /></ListGroup.Item>
+                <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="https://www.xing.com/profile/YahyaYasir_KOCA/cv" target="_blank">
+                  <MDBIcon fab icon="xing" style={{ color: "rgb(255,255,255)" }} /></ListGroup.Item>
+                <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="https://youtube.com" target="_blank">
+                  <Twitter color="white" /></ListGroup.Item>
+                <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="https://google.com" target="_blank">
+                  <Instagram color="white" /></ListGroup.Item>
               </ListGroup>
               <Card.Text>
-                   
+                {/* Some text */}
               </Card.Text>
             </Card.Body>
           </Card>
