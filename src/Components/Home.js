@@ -22,14 +22,14 @@ function Home() {
             <Image
               src="https://cdn.pixabay.com/photo/2019/11/05/12/02/sunset-4603355_960_720.jpg"
               // src={profilPhoto}
-              width="320"
-              height="540"
-              style={{ position: "relative", left: "60px", top: "75px", zIndex: "2", border: "4px solid orange" }}
+              width="380"
+              height="480"
+              style={{ position: "relative", left: "50px", top: "120px", zIndex: "2", border: "4px solid orange" }}
             />
           </Card>
         </Col>
         <Col xs lg="7" className="m-0 p-0" >
-          <Card className="shadow-none p-5" bg="dark" text="light " style={{ height: "500px", borderRadius: "0", margin: "0" }} >
+          <Card className="shadow-none p-5" bg="dark" text="light " style={{ height: "400px", borderRadius: "0", margin: "0" }} >
             <Card.Body className="d-flex flex-column justify-content-center" >
               <Card.Title>I'am Yahya Yasir.</Card.Title>
               <Card.Subtitle>Full-Stack Web Developer</Card.Subtitle>
