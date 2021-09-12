@@ -1,36 +1,44 @@
-import React from "react";
+import React, { useState } from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
 
 export default function Header() {
+  const { isScrolledDown, setIsScrolledDown } = useState(false);
+
   return (
-      <Navbar
-        collapseOnSelect
-        expand="lg"
-        bg="dark"
-        variant="dark"
-        style={{ minHeight: "15vh" }}
-      >
-        <Container>
-          <Navbar.Brand href="#">Yahya Yasir KOCA</Navbar.Brand>
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="me-auto">
-              {/* <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link> */}
-            </Nav>
-            <Nav>
-              <Nav.Link href="/">Home</Nav.Link>
-              <Nav.Link eventKey={2} href="/about">
-                About
-              </Nav.Link>
-              <Nav.Link href="/experience">Experience</Nav.Link>
-              <Nav.Link eventKey={3} href="/project">
-                Project
-              </Nav.Link>
-              <Nav.Link href="/contact">Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+    <Navbar
+      // fixed="top"
+      collapseOnSelect
+      expand="lg"
+      bg="dark"
+      variant="dark"
+      style={{ minHeight: "15vh" }}
+      className="autohide"
+    >
+      <Container>
+        <Navbar.Brand href="#home"><span className="nav-link-span">Yahya Yasir KOCA</span></Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="me-auto">
+          </Nav>
+          <Nav>
+            <Nav.Link href="#home">
+              <span className="nav-link-span">Home</span>
+            </Nav.Link>
+            <Nav.Link eventKey={2} href="#about">
+              <span className="nav-link-span">About</span>
+            </Nav.Link>
+            <Nav.Link href="#experience">
+              <span className="nav-link-span">Experience</span>
+            </Nav.Link>
+            <Nav.Link eventKey={3} href="#project">
+              <span className="nav-link-span">Project</span>
+            </Nav.Link>
+            <Nav.Link href="#contact">
+              <span className="nav-link-span">Contact</span>
+            </Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }
