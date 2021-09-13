@@ -8,7 +8,7 @@ function Contact() {
     }
 
     return (
-        <Container fluid className="d-flex justify-content-end p-0 m-0" style={{ width: "100%" }}>
+        <Container id="contact" fluid className="d-flex justify-content-end p-0 m-0" style={{ width: "100%" }}>
             <Form onSubmit={submitContactForm} className="contact m-0 p-5 d-flex flex-column" style={{ width: "50vw", height: "85vh", background: "rgb(194,195,196" }}>
                 <h2 className="text-center mb-5">Contact me</h2>
                 
