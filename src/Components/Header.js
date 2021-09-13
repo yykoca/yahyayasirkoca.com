@@ -17,9 +17,7 @@ export default function Header() {
       <Container>
         <Navbar.Brand href="#home"><span className="nav-link-span">Yahya Yasir KOCA</span></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="me-auto">
-          </Nav>
+        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
           <Nav>
             <Nav.Link href="#home">
               <span className="nav-link-span">Home</span>
