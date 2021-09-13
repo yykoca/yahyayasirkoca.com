@@ -2,19 +2,9 @@ import React from "react";
 import { Container, Card, Image, Row, Col, ListGroup } from "react-bootstrap";
 import { Github, Instagram, Linkedin, Twitter } from "react-bootstrap-icons";
 import { MDBIcon } from 'mdbreact';
-
 function Home() {
   return (
-    <Container fluid style={{ minHeight: "85vh", display: "flex" }}>
-      {/* <Row className="justify-content-md-center">
-        <Col xs lg="2">
-          1 of 3
-        </Col>
-        <Col md="auto">Variable width content</Col>
-        <Col xs lg="2">
-          3 of 3
-        </Col>
-      </Row> */}
+    <Container fluid id="home" className="d-flex my-5" style={{ minHeight: "100vh"}} >
       <Row className="align-items-md-center">
         <Col xs lg="5" >
           <Card className="align-items-md-end shadow-none" >
@@ -37,15 +27,20 @@ function Home() {
                 Hi, I'm Yahya Yasir! I'm a Full-Stack Developer who is passionate about writing code, solving problems, automating stuff, and building Single Page Application.
               </Card.Text>
               <ListGroup horizontal className="text-center">
-                <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="https://github.com/yykoca" target="_blank">
-                  <Github color="white" /></ListGroup.Item>
+                <ListGroup.Item
+                  action
+                  style={{ border: "none", backgroundColor: "rgb(38,38,38)" }}
+                  href="https://github.com/yykoca"
+                  target="_blank">
+                  <Github color="white" />
+                </ListGroup.Item>
                 <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="https://www.linkedin.com/in/yykoca/" target="_blank">
                   <Linkedin color="white" /></ListGroup.Item>
                 <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="https://www.xing.com/profile/YahyaYasir_KOCA/cv" target="_blank">
                   <MDBIcon fab icon="xing" style={{ color: "rgb(255,255,255)" }} /></ListGroup.Item>
-                <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="https://youtube.com" target="_blank">
+                <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="http://twitter.com/yhysrkc" target="_blank">
                   <Twitter color="white" /></ListGroup.Item>
-                <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="https://google.com" target="_blank">
+                <ListGroup.Item action style={{ border: "none", backgroundColor: "rgb(38,38,38)" }} href="https://instagram.com/yhysrkc" target="_blank">
                   <Instagram color="white" /></ListGroup.Item>
               </ListGroup>
               <Card.Text>
