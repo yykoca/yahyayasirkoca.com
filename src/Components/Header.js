@@ -1,23 +1,28 @@
-import React, { useState } from "react";
+import React from "react";
 import { Navbar, Container, Nav } from "react-bootstrap";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default function Header() {
-  const { isScrolledDown, setIsScrolledDown } = useState(false);
-
   return (
     <Navbar
-      // fixed="top"
       collapseOnSelect
       expand="lg"
       bg="dark"
       variant="dark"
-      style={{ minHeight: "15vh" }}
-      className="autohide"
+      // sticky="top"
+      style={{ minHeight: "90px" }}
     >
       <Container>
-        <Navbar.Brand href="#home"><span className="nav-link-span">Yahya Yasir KOCA</span></Navbar.Brand>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-        <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end">
+        <Navbar.Brand href="#home">
+          <span className="nav-link-span brand">Yahya Yasir KOCA</span>
+        </Navbar.Brand>
+        <Navbar.Toggle
+          aria-controls="responsive-navbar-nav"
+        />
+        <Navbar.Collapse
+          id="responsive-navbar-nav"
+          className="justify-content-end"
+        >
           <Nav>
             <Nav.Link href="#home">
               <span className="nav-link-span">Home</span>
