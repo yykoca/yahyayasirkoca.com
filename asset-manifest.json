@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/yykoca/yahyayasirkoca.com/static/css/main.bd4b61b6.chunk.css",
+    "main.js": "/yykoca/yahyayasirkoca.com/static/js/main.47633c64.chunk.js",
+    "main.js.map": "/yykoca/yahyayasirkoca.com/static/js/main.47633c64.chunk.js.map",
+    "runtime-main.js": "/yykoca/yahyayasirkoca.com/static/js/runtime-main.0e8befa7.js",
+    "runtime-main.js.map": "/yykoca/yahyayasirkoca.com/static/js/runtime-main.0e8befa7.js.map",
+    "static/css/2.0a9ec390.chunk.css": "/yykoca/yahyayasirkoca.com/static/css/2.0a9ec390.chunk.css",
+    "static/js/2.10fc53b7.chunk.js": "/yykoca/yahyayasirkoca.com/static/js/2.10fc53b7.chunk.js",
+    "static/js/2.10fc53b7.chunk.js.map": "/yykoca/yahyayasirkoca.com/static/js/2.10fc53b7.chunk.js.map",
+    "index.html": "/yykoca/yahyayasirkoca.com/index.html",
+    "static/css/2.0a9ec390.chunk.css.map": "/yykoca/yahyayasirkoca.com/static/css/2.0a9ec390.chunk.css.map",
+    "static/css/main.bd4b61b6.chunk.css.map": "/yykoca/yahyayasirkoca.com/static/css/main.bd4b61b6.chunk.css.map",
+    "static/js/2.10fc53b7.chunk.js.LICENSE.txt": "/yykoca/yahyayasirkoca.com/static/js/2.10fc53b7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0e8befa7.js",
+    "static/css/2.0a9ec390.chunk.css",
+    "static/js/2.10fc53b7.chunk.js",
+    "static/css/main.bd4b61b6.chunk.css",
+    "static/js/main.47633c64.chunk.js"
+  ]
+}
