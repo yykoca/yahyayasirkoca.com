@@ -16,7 +16,7 @@ function Home() {
             </Row>
             <Row>
                 <Col className="text-center">
-                    <Image src="./images/yykoca.jpg" roundedCircle width="240" height="240" />
+                    <Image src="https://cdn.pixabay.com/photo/2019/11/05/12/02/sunset-4603355_960_720.jpg" roundedCircle width="240" height="240" />
                 </Col>
             </Row>
         </Container>

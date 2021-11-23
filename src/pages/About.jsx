@@ -32,7 +32,7 @@ function About() {
             <Row className="justify-content-center">
                 <Col lg="5">
                     <Image
-                        src="./images/vector-web-developer.png"
+                        src="https://cdn.pixabay.com/photo/2019/11/05/12/02/sunset-4603355_960_720.jpg"
                         width="100%"
                     />
                 </Col>
