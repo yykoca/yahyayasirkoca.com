@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/yahyayasirkoca.com/static/css/main.bd4b61b6.chunk.css",
-    "main.js": "/yahyayasirkoca.com/static/js/main.a798de80.chunk.js",
-    "main.js.map": "/yahyayasirkoca.com/static/js/main.a798de80.chunk.js.map",
+    "main.js": "/yahyayasirkoca.com/static/js/main.47633c64.chunk.js",
+    "main.js.map": "/yahyayasirkoca.com/static/js/main.47633c64.chunk.js.map",
     "runtime-main.js": "/yahyayasirkoca.com/static/js/runtime-main.63cc957c.js",
     "runtime-main.js.map": "/yahyayasirkoca.com/static/js/runtime-main.63cc957c.js.map",
     "static/css/2.0a9ec390.chunk.css": "/yahyayasirkoca.com/static/css/2.0a9ec390.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.0a9ec390.chunk.css",
     "static/js/2.10fc53b7.chunk.js",
     "static/css/main.bd4b61b6.chunk.css",
-    "static/js/main.a798de80.chunk.js"
+    "static/js/main.47633c64.chunk.js"
   ]
 }
