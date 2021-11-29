@@ -1,22 +1,22 @@
 import React from 'react';
 import { Container, Row, Col, Image } from 'react-bootstrap';
 
-function Home() {
+function Home({ scrollPosition }) {
     return (
-        <Container id="home" className="d-flex flex-column-reverse justify-content-evenly">
+        <Container id="home" className="d-flex flex-column justify-content-center">
             <Row>
-                <Col xs className="text-center">
+                <Col className="text-center mb-5">
+                    <Image className={(scrollPosition === 0) && "downEffect"} src="./images/yykoca.jpg" roundedCircle width="240" height="240" />
+                </Col>
+            </Row>
+            <Row>
+                <Col xs className={(scrollPosition === 0) ? "text-center upEffect" : "text-center"} >
                     <h1>Full-Stack Web Developer</h1>
                     <p>
                         I'm a Full-Stack Developer who is passionate about writing code,
                         solving problems, automating stuff, and building Single Page
                         Application.
                     </p>
-                </Col>
-            </Row>
-            <Row>
-                <Col className="text-center">
-                    <Image src="./images/yykoca.jpg" roundedCircle width="240" height="240" />
                 </Col>
             </Row>
         </Container>

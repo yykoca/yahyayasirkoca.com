@@ -39,10 +39,17 @@ h1 {
     "Lucida Sans", Arial, sans-serif;
 }
 
+nav {
+  min-height: 75px;
+}
 /* HOME STYLE */
 #home {
-  margin-top: 60px;
-  min-height: 600px;
+  margin-top: 75px;
+  height: calc(100vh - 75px);
+}
+
+#about {
+  padding-top: 75px;
 }
 
 #home img {
@@ -55,4 +62,34 @@ h1 {
 
 #footer a{
   font-size: 24px;
+}
+
+.upEffect {
+  position: relative;
+  animation-name: siri2;
+  animation-duration: 2s;
+}
+
+.downEffect {
+  position: relative;
+  animation-name: siri;
+  animation-duration: 2s;
+}
+
+@keyframes siri {
+  0% {
+    top: -5vh;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes siri2 {
+  0% {
+    top: 5vh;
+  }
+  100% {
+    top: 0;
+  }
 }
