@@ -10,7 +10,7 @@ function Home({ scrollPosition }) {
                 </Col>
             </Row>
             <Row>
-                <Col xs className={(scrollPosition === 0) ? "text-center upEffect" : "text-center"} >
+                <Col xs className={`text-center ${(scrollPosition === 0) && "upEffect"}`} >
                     <h1>Full-Stack Web Developer</h1>
                     <p>
                         I'm a Full-Stack Developer who is passionate about writing code,

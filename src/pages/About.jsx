@@ -61,9 +61,9 @@ function About() {
                         <Card.Body>
                             <Card.Title className="text-center m-3">My Skills</Card.Title>
                             {
-                                skills.map(skill => {
+                                skills.map((skill, i) => {
                                     return (
-                                        <div style={{ fontSize: "12px" }}>
+                                        <div style={{ fontSize: "12px" }} key={i}>
                                             {skill.name}
                                             <ProgressBar
                                                 striped

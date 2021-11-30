@@ -1,9 +1,9 @@
 .App {
-  color: rgb(51,51,51);
+  color: rgb(51, 51, 51);
   /* background-color: rgb(112,112,112); */
-  border-color: rgb(247,247,247);
-  outline-color: rgb(167,237,219);
-  box-shadow: 0 0 0 rgb(102,102,102);
+  border-color: rgb(247, 247, 247);
+  outline-color: rgb(167, 237, 219);
+  box-shadow: 0 0 0 rgb(102, 102, 102);
 }
 
 * {
@@ -44,13 +44,13 @@ nav {
 }
 /* HOME STYLE */
 #home {
-  margin-top: 75px;
+  /* margin-top: 75px; */
   height: calc(100vh - 75px);
 }
 
-#about {
+/* #about {
   padding-top: 75px;
-}
+} */
 
 #home img {
   box-shadow: 0px 0px 10px rgb(102, 102, 102);
@@ -60,7 +60,7 @@ nav {
   height: 30vh;
 }
 
-#footer a{
+#footer a {
   font-size: 24px;
 }
 
@@ -88,6 +88,21 @@ nav {
 @keyframes siri2 {
   0% {
     top: 5vh;
+  }
+  100% {
+    top: 0;
+  }
+}
+
+.sticky-top {
+  position: relative;
+  animation-name: siri3;
+  animation-duration: 1s;
+}
+
+@keyframes siri3 {
+  0% {
+    top: -10vh;
   }
   100% {
     top: 0;

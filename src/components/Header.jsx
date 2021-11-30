@@ -1,9 +1,11 @@
 import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
+// import Collapse from 'react-bootstrap/Collapse'
 
 function Header() {
     return (
-        <Navbar id="header" collapseOnSelect expand="lg" bg="dark" variant="dark" fixed="top">
+        <Navbar id="header" collapseOnSelect expand="lg" bg="dark" variant="dark">
+            {/* <Collapse in={open}> */}
             <Container>
                 <Navbar.Brand href="#home">Yahya Yasir KOCA</Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
@@ -17,6 +19,7 @@ function Header() {
                     </Nav>
                 </Navbar.Collapse>
             </Container>
+            {/* </Collapse> */}
         </Navbar>
     )
 }
