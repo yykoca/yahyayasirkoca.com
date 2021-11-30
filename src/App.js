@@ -12,23 +12,18 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   const [open, setOpen] = useState(false);
   var doc = document.documentElement;
-  var w = window;
 
-  var prevScroll = w.scrollY || doc.scrollTop;
+  var prevScroll = window.scrollY || doc.scrollTop;
   var curScroll;
   var direction = 0;
   var prevDirection = 0;
-
-  
-
 
   const [scrollPosition, setScrollPosition] = useState(0);
 
   const handleScroll = () => {
     const position = window.pageYOffset;
 
-
-    curScroll = w.scrollY || doc.scrollTop;
+    curScroll = window.scrollY || doc.scrollTop;
     if (curScroll > prevScroll) { 
       //scrolled up
       direction = 2;
