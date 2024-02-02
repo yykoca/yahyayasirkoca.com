@@ -1,23 +1,13 @@
 {
   "files": {
-    "main.css": "/yahyayasirkoca.com/static/css/main.557b0b05.chunk.css",
-    "main.js": "/yahyayasirkoca.com/static/js/main.a1859493.chunk.js",
-    "main.js.map": "/yahyayasirkoca.com/static/js/main.a1859493.chunk.js.map",
-    "runtime-main.js": "/yahyayasirkoca.com/static/js/runtime-main.63cc957c.js",
-    "runtime-main.js.map": "/yahyayasirkoca.com/static/js/runtime-main.63cc957c.js.map",
-    "static/css/2.0a9ec390.chunk.css": "/yahyayasirkoca.com/static/css/2.0a9ec390.chunk.css",
-    "static/js/2.85decc9d.chunk.js": "/yahyayasirkoca.com/static/js/2.85decc9d.chunk.js",
-    "static/js/2.85decc9d.chunk.js.map": "/yahyayasirkoca.com/static/js/2.85decc9d.chunk.js.map",
-    "index.html": "/yahyayasirkoca.com/index.html",
-    "static/css/2.0a9ec390.chunk.css.map": "/yahyayasirkoca.com/static/css/2.0a9ec390.chunk.css.map",
-    "static/css/main.557b0b05.chunk.css.map": "/yahyayasirkoca.com/static/css/main.557b0b05.chunk.css.map",
-    "static/js/2.85decc9d.chunk.js.LICENSE.txt": "/yahyayasirkoca.com/static/js/2.85decc9d.chunk.js.LICENSE.txt"
+    "main.css": "/static/css/main.5dff0870.css",
+    "main.js": "/static/js/main.5ea5bc0b.js",
+    "index.html": "/index.html",
+    "main.5dff0870.css.map": "/static/css/main.5dff0870.css.map",
+    "main.5ea5bc0b.js.map": "/static/js/main.5ea5bc0b.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.63cc957c.js",
-    "static/css/2.0a9ec390.chunk.css",
-    "static/js/2.85decc9d.chunk.js",
-    "static/css/main.557b0b05.chunk.css",
-    "static/js/main.a1859493.chunk.js"
+    "static/css/main.5dff0870.css",
+    "static/js/main.5ea5bc0b.js"
   ]
 }
