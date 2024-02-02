@@ -11,7 +11,8 @@ function Home({ scrollPosition }) {
             </Row>
             <Row>
                 <Col xs className={(scrollPosition === 0) ? "text-center upEffect" : "text-center"} >
-                    <h1>Full-Stack Web Developer</h1>
+                    <span>Hi, my name is</span>
+                    <h1>Yahya Yasir Koca</h1>
                     <p>
                         I'm a Full-Stack Developer who is passionate about writing code,
                         solving problems, automating stuff, and building Single Page
